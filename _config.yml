@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Minah"
-  avatar           : "assets/images/minah2.jpg"
+  avatar           : "/assets/images/minah.jpg"
   bio              : "Web developer."
   location         : "Seoul"
   email            :
