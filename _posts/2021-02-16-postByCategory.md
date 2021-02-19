@@ -18,7 +18,7 @@ comments: true
 
 ## 1. add md file
 
-# 1-1. add three md files in `_pages` directory : 
+### 1-1. add three md files in `_pages` directory : 
 
 `category-archive.md` : categorizing by category<br/>
 `year-archive.md` : categorizing by year<br/>
@@ -54,7 +54,7 @@ Of course, you don't have to create all 3 pages - just select what you need.
 
 ## 2. change _config.yml file
 
-# 2-1. change _config.yml file as below: this will enable to open each categorized pages.
+### 2-1. change _config.yml file as below: this will enable to open each categorized pages.
 
 ```yml
 category_archive:
@@ -70,7 +70,7 @@ year_archive:
 
 ## 3. Adding links on navigation bar
 
-# 3-1. If you want to add the categorized pages to the navigation bar, add below code to `_data/navigation.yml` : 
+### 3-1. If you want to add the categorized pages to the navigation bar, add below code to `_data/navigation.yml` : 
 
 ```yml
 # main links
