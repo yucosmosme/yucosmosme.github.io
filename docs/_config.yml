@@ -83,7 +83,7 @@ social:
 analytics:
   provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-VZP54H6LGX" # Replace this with your ID, or delete
+    tracking_id          : "UA-190598873-1" # 내 트랙킹 id
     anonymize_ip         : true
 
 
