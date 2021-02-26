@@ -13,13 +13,17 @@ comments: true
 > On search function (SELECT, SELECT LIKE in mysql), there occured error when single quotation mark was searched.
 
 To show the difference, on mysql workbench, if search contents were normal text, it would apear as below.
+
 ![Image Alt error](/assets/images/posts/20210226_155918.png)
 
 But if there is single quotation mark inside search content, error occurs. This happens when there is already quotation mark set in the query. considering single quotation mark in the search content as part of the query.
+
 ![Image Alt error](/assets/images/posts/20210226_155946.png)
  
 Solution is to add another single quotation mark `'` or back slash `\` infront of single quotation mark as below images.
+
 ![Image Alt error](/assets/images/posts/20210226_160001.png)
+
 ![Image Alt error](/assets/images/posts/20210226_160016.png)
 
 To do so, I simply added one line on my backend code (node.js) using regular expression.

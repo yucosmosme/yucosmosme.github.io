@@ -15,6 +15,22 @@ layout: archive
   {% endfor %}
 </ul>
 
+
+
+<div style="text-align: center;">
+  <a
+     href="http://hits.dwyl.com/likelionSungGuk.github.io/21-01-05/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A1%B0%ED%9A%8C%EC%88%98-%EB%B1%83%EC%A7%80-%EB%8B%AC%EA%B8%B0-HITS"
+     target="_blank"
+   >
+   <img
+     src="http://hits.dwyl.com/likelionSungGuk.github.io/21-01-05/Jekyll-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%A1%B0%ED%9A%8C%EC%88%98-%EB%B1%83%EC%A7%80-%EB%8B%AC%EA%B8%B0-HITS.svg"
+   />
+  </a>
+</div>
+
+
+
+
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign postsByYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
