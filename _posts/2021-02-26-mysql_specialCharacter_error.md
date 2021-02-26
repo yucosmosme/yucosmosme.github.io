@@ -6,6 +6,8 @@ tags:
   - mysql
   - node-mysql
   - regular expression
+  - single quotation mark error
+  - special character error
 date: 2021-02-26 18:30
 comments: true 
 ---
