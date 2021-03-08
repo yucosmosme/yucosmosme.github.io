@@ -72,7 +72,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "C247pKUv3pKbD7IXs9ufrJhlNA8WGWQJ0Q_ovSH_Pu8"
+google_site_verification : "C247pKUv3pKbD7IXs9ufrJhlNA8WGWQJ0Q_ovSH_Pu8" # 되나?
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
