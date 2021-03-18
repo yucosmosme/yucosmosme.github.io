@@ -21,15 +21,9 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Minah"
 description              : "An amazing website."
-url                      : "https://yucosmosme.github.io"
-  # Google Search Console에서 사용하는 sitemap.xml 생성시
-  # 이 url key값이 존재하지 않으면 sitemap.xml이
-  # 정상적으로 생성되지 않는다.
-  # 또한 disqus(댓글시스템)를 이용하기 위해서도 필요.
-  # 자신의 github page url을 입력
-  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yucosmosme.github.io" # sitemap.xml, disqus(댓글시스템)를 이용하기 위해서 필수
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : yucosmosme/yucosmosme.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -72,10 +66,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "C247pKUv3pKbD7IXs9ufrJhlNA8WGWQJ0Q_ovSH_Pu8" # 되나?
+google_site_verification : "C247pKUv3pKbD7IXs9ufrJhlNA8WGWQJ0Q_ovSH_Pu8" # Google Search Console
 bing_site_verification   :
 yandex_site_verification :
-naver_site_verification  :
+naver_site_verification  : "c570848f0d8d00d9261f84fad43b477940c232a2" # 네이버 웹마스터
 
 # Social Sharing
 twitter:
